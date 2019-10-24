@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Youtube</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Search Bar -->
+  <nav>
+    <input type="text" placeholder="Search" />
+    <button>Search</button>
+  </nav>
+
+  <!-- Container -->
+  <main>
+    <!-- Video -->
+    <section class="video">
+      <video poster="http://media.w3.org/2010/05/sintel/poster.png" controls>
+        <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4" />
+        <source src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg" />
+        <source src="http://media.w3.org/2010/05/sintel/trailer.webm" type='video/webm' />
+
+        <track kind="subtitles" label="English Subtitles" src="subtitles_en.vtt" srclang="en" default />
+        <track kind="subtitles" label="Deutsche Untertitel" src="subtitles_de.vtt" srclang="de" />
+        <p>Your browser does not support the video tag.</p>
+      </video>
+    </section>
+
+    <!-- Comments -->
+    <section class="comments">
+      <h4>Comments</h4>
+      <ul>
+        <li>
+          <a class="image" href="#"><img src="https://source.unsplash.com/64x64/?person,people,head,a" alt="User Profile" /></a>
+          <a class="name" href="#">John Smith</a>
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptas!</p>
+        </li>
+        <li>
+          <a class="image" href="#"><img src="https://source.unsplash.com/64x64/?person,people,head,b" alt="User Profile" /></a>
+          <a class="name" href="#">Justine Travis</a>
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur sint perferendis aliquid similique, assumenda eaque delectus voluptatum mollitia quisquam, animi nulla labore nesciunt! Voluptatem est laudantium sapiente reprehenderit ab enim, rerum ipsum hic excepturi modi, neque non ratione saepe corporis, ipsa voluptatibus nulla, ea laboriosam? Quam saepe molestiae, error.</p>
+        </li>
+        <li>
+          <a class="image" href="#"><img src="https://source.unsplash.com/64x64/?person,people,head,c" alt="User Profile" /></a>
+          <a class="name" href="#">Samantha Taylors</a>
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nam, deserunt debitis iste, velit incidunt temporibus. Earum illum, inventore sapiente.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Up Next -->
+    <section class="up-next">
+      <h4>Up Next</h4>
+      <ul>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?nature" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Loving Nature</a> <small>by <a href="#">Andrew Watson</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?art" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Artistic</a> <small>by <a href="#">David Miller</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?sports" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Fitness Up</a> <small>by <a href="#">Mark Franks</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?religion" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Hope</a> <small>by <a href="#">Paul McDart</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?animals" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Untamed Wildlife</a> <small>by <a href="#">Josh May</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?christmas" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Cheers!</a> <small>by <a href="#">Claus Barbers</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?songs" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Lyrical</a> <small>by <a href="#">Linda Park</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?fiction" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Light Up</a> <small>by <a href="#">Blake Dare</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?travel" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Travel the World</a> <small>by <a href="#">Will Williams</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?foods" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Eat Eat Eat</a> <small>by <a href="#">Kate Yap</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?newyear" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Cheers</a> <small>by <a href="#">Harold Hark</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?technology" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">AppFest</a> <small>by <a href="#">Ronnel Inkheart</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?books" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Read Up</a> <small>by <a href="#">Frank Oliver</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?sexy" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Expose</a> <small>by <a href="#">Sarah Fong</a></small></span>
+        </li>
+        <li>
+          <a href="#"><img src="https://source.unsplash.com/random/256x144/?muscle" alt="Thumbnail" /></a>
+          <span class="title"><a href="#">Body Builder</a> <small>by <a href="#">Roland Reynolds</a></small></span>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
