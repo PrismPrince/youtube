@@ -83,7 +83,7 @@ main {
   max-width: 1024px;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: max-content min-content;
+  grid-template-rows: auto 1fr;
   grid-gap: 15px;
 }
 
